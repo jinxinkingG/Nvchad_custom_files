@@ -8,6 +8,9 @@ M.general = {
     ["<leader>w"] = { ":w<CR>", "save current buffer", opts = {nowait = true, silent = true} },
     ["<leader>Q"] = { ":q!<CR>", "Force quit neovim", opts = {nowait = true, silent = true} },
   },
+  v = {
+    q = {"<esc>","quit Visual Mode"}
+  }
 }
 
 -- more keybinds!
