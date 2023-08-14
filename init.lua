@@ -11,5 +11,8 @@ end
 
 require('custom.base_config')
 
+--load functions
+require('custom.core.functions')
+
 -- load autocmd
-require('custom.autocmd')
+require('custom.core.autocmd')
